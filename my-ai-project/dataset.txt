@@ -1,0 +1,60 @@
+Tomato Early Blight: Yellow spots on leaves. Use fungicide and remove infected leaves.
+Tomato Late Blight: Dark lesions with mold. Use copper fungicide.
+Tomato Leaf Mold: Yellow patches with fuzzy growth. Improve ventilation.
+Tomato Septoria Leaf Spot: Small circular spots with dark borders. Use fungicide spray.
+Tomato Bacterial Spot: Dark water-soaked spots. Avoid overhead watering.
+
+Potato Early Blight: Brown concentric rings on leaves. Apply fungicide regularly.
+Potato Late Blight: Dark brown patches with white edges. Use certified seeds.
+Potato Scab: Rough corky spots on tubers. Maintain soil moisture.
+Potato Blackleg: Black stems and soft rot. Use disease-free seeds.
+Potato Leaf Roll Virus: Upward leaf curling. Control aphids.
+
+Rice Blast: Diamond-shaped lesions. Avoid excess nitrogen fertilizer.
+Rice Bacterial Blight: Yellowing and wilting leaves. Use resistant varieties.
+Rice Sheath Blight: Oval lesions on sheath. Improve spacing.
+Rice Brown Spot: Brown lesions on leaves. Use balanced fertilizer.
+Rice Tungro Virus: Yellow-orange leaves. Control leafhoppers.
+
+Corn Leaf Spot: Small brown spots with yellow halo. Practice crop rotation.
+Corn Rust: Orange pustules on leaves. Use resistant hybrids.
+Corn Smut: Swollen black galls. Remove infected parts.
+Corn Blight: Large gray lesions. Apply fungicide.
+Corn Downy Mildew: Yellow streaks. Improve drainage.
+
+Wheat Rust: Red or brown patches. Apply fungicide early.
+Wheat Powdery Mildew: White powder on leaves. Improve air circulation.
+Wheat Smut: Black powdery spores. Use treated seeds.
+Wheat Leaf Blight: Yellow lesions. Use resistant varieties.
+
+Mango Anthracnose: Black spots on fruit. Use fungicide spray.
+Mango Powdery Mildew: White coating on leaves. Spray sulfur fungicide.
+Mango Dieback: Drying of branches. Prune infected parts.
+Mango Bacterial Canker: Cracked bark. Apply copper spray.
+
+Banana Leaf Spot: Brown streaks on leaves. Remove infected leaves.
+Banana Panama Disease: Yellowing and wilting. Use resistant varieties.
+Banana Bunchy Top Virus: Stunted growth. Remove infected plants.
+Banana Anthracnose: Dark spots on fruit. Use fungicide.
+
+Grape Downy Mildew: Yellow spots with white growth. Improve drainage.
+Grape Powdery Mildew: White powder on grapes. Use sulfur spray.
+Grape Black Rot: Black lesions on fruit. Apply fungicide.
+Grape Anthracnose: Dark sunken spots. Prune affected parts.
+
+Apple Scab: Dark spots on fruit and leaves. Apply fungicide.
+Apple Fire Blight: Blackened branches. Prune infected areas.
+Apple Powdery Mildew: White coating on leaves. Use fungicide.
+Apple Cedar Rust: Orange spots. Remove nearby cedar plants.
+
+Chili Leaf Curl: Leaves curl upward. Control whiteflies.
+Chili Anthracnose: Dark sunken spots. Use fungicide.
+Chili Powdery Mildew: White patches. Improve airflow.
+
+Onion Purple Blotch: Purple lesions on leaves. Apply fungicide.
+Onion Downy Mildew: Pale patches on leaves. Improve airflow.
+Onion Basal Rot: Root decay. Use crop rotation.
+
+Cotton Leaf Curl Virus: Leaf curling and thickening. Control whiteflies.
+Cotton Boll Rot: Rotting bolls. Use proper drainage.
+Cotton Wilt: Yellowing and wilting. Use resistant varieties.

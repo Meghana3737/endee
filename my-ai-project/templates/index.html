@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Disease Assistant</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #d4fc79, #96e6a1);
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 50%;
+            margin: auto;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #2e7d32;
+        }
+
+        input {
+            width: 80%;
+            padding: 12px;
+            margin-top: 20px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 15px;
+            background: #2e7d32;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1b5e20;
+        }
+
+        .best {
+            margin-top: 20px;
+            padding: 15px;
+            background: #c8e6c9;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .result {
+            margin-top: 15px;
+            padding: 10px;
+            background: #f1f8e9;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🌿 AI Crop Disease Assistant</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="text" name="query" placeholder="Describe crop issue..." required>
+        <br>
+        <button type="submit">Analyze</button>
+    </form>
+   
+
+    {% if best_result %}
+    <div class="best">
+        🌟 Best Match: {{ best_result }} <br>
+        Confidence: {{ confidence }}%
+    </div>
+    {% endif %}
+
+    {% if results %}
+    <div class="result">
+        <h3>🔍 Other Matches:</h3>
+        <ul>
+            {% for r in results[1:] %}
+            <li>🌱 {{ r }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
