@@ -99,7 +99,7 @@ http://127.0.0.1:5000
 ---
 
 ## 📸 Project UI
-![UI](images/ui screenshot.png)
+![UI](images/ui_screenshot.png)
 
 ## 📸 Example Output
 ![Output](images/output.png)
