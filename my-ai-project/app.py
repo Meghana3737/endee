@@ -1,79 +1,76 @@
-import warnings
-warnings.filterwarnings("ignore")
-
 from flask import Flask, render_template, request
-from sentence_transformers import SentenceTransformer
-import numpy as np
+from sentence_transformers import SentenceTransformer, util
 
 app = Flask(__name__)
-
-# Load dataset
-with open("dataset.txt", "r") as f:
-    documents = f.readlines()
 
 # Load model
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# Convert dataset into embeddings
-doc_embeddings = model.encode(documents)
+# Load dataset
+data = []
+texts = []
+
+with open("dataset.txt", "r", encoding="utf-8") as f:
+    for line in f:
+        parts = line.strip().split("|")
+        if len(parts) == 3:
+            disease = parts[0].strip()
+            symptoms = parts[1].strip()
+            solution = parts[2].strip()
+
+            data.append({
+                "disease": disease,
+                "symptoms": symptoms,
+                "solution": solution
+            })
+
+            texts.append(disease + " " + symptoms)
+
+# Convert dataset to embeddings
+embeddings = model.encode(texts)
+
+# Store history
+history = []
+total_searches = 0
+
 
 @app.route("/", methods=["GET", "POST"])
 def home():
+    global total_searches
+
+    best_result = None
     results = []
-    best_result = ""
     confidence = 0
 
     if request.method == "POST":
         query = request.form["query"]
-        crop = request.form.get("crop")
 
-        # Combine crop + query
-        if crop:
-            query = crop + " " + query
+        history.append(query)
+        total_searches += 1
 
-        # Image (optional UI feature)
-        image = request.files.get("image")
+        query_embedding = model.encode(query)
 
-        # Convert query into embedding
-        query_embedding = model.encode([query])
+        scores = util.cos_sim(query_embedding, embeddings)[0]
 
-        # Compute similarity
-        similarity = np.dot(doc_embeddings, query_embedding.T).flatten()
+        # Get top 3 matches
+        top_indices = scores.argsort(descending=True)[:3]
 
-        max_score = np.max(similarity)
+        results = []
+        for idx in top_indices:
+            results.append(data[int(idx)])
 
-        # If no good match
-        if max_score < 0.3:
-            results = ["⚠️ No relevant disease found."]
-            best_result = "Try describing symptoms more clearly."
-        else:
-            # Get top 3 results
-            top_indices = np.argsort(similarity)[::-1][:3]
-
-            results = []
-
-            for i in top_indices:
-                text = documents[i]
-
-                # Try structured format (optional)
-                parts = text.split("|")
-
-                if len(parts) == 3:
-                    disease, symptoms, solution = parts
-                    formatted = f"{disease.strip()} - {symptoms.strip()} → {solution.strip()}"
-                    results.append(formatted)
-                else:
-                    results.append(text.strip())
-
-            best_result = results[0]
-            confidence = round(max_score * 100, 2)
+        best_result = results[0]
+        confidence = round(float(scores[top_indices[0]]) * 100, 2)
 
     return render_template(
         "index.html",
-        results=results,
         best_result=best_result,
-        confidence=confidence
+        results=results,
+        confidence=confidence,
+        history=history,
+        total=total_searches
     )
+
 
 if __name__ == "__main__":
     app.run(debug=True)

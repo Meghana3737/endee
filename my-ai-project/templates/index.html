@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Crop Disease Assistant</title>
+    <title>AI Plant Disease Assistant</title>
+
     <style>
         body {
-            font-family: Arial;
-            background: linear-gradient(to right, #d4fc79, #96e6a1);
-            text-align: center;
-            padding: 50px;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #a8e063, #56ab2f);
+            margin: 0;
         }
 
         .container {
+            max-width: 800px;
+            margin: 40px auto;
             background: white;
             padding: 30px;
-            border-radius: 15px;
-            width: 50%;
-            margin: auto;
-            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
         }
 
         h1 {
+            text-align: center;
             color: #2e7d32;
         }
 
-        input {
-            width: 80%;
+        .subtitle {
+            text-align: center;
+            color: #666;
+        }
+
+        input, select, button {
+            width: 100%;
             padding: 12px;
-            margin-top: 20px;
-            border-radius: 8px;
+            margin: 10px 0;
+            border-radius: 10px;
             border: 1px solid #ccc;
         }
 
         button {
-            padding: 10px 20px;
-            margin-top: 15px;
             background: #2e7d32;
             color: white;
-            border: none;
-            border-radius: 8px;
+            font-size: 16px;
             cursor: pointer;
         }
 
@@ -45,19 +48,44 @@
             background: #1b5e20;
         }
 
-        .best {
+        .card {
             margin-top: 20px;
             padding: 15px;
-            background: #c8e6c9;
-            border-radius: 10px;
-            font-weight: bold;
+            border-radius: 12px;
         }
 
-        .result {
-            margin-top: 15px;
-            padding: 10px;
+        .best-card {
+            background: #e8f5e9;
+            border-left: 6px solid #2e7d32;
+        }
+
+        .other-card {
             background: #f1f8e9;
-            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #1b5e20;
+        }
+
+        .confidence {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .history {
+            margin-top: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .analytics {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -65,32 +93,78 @@
 <body>
 
 <div class="container">
-    <h1>🌿 AI Crop Disease Assistant</h1>
 
-    <form method="POST" enctype="multipart/form-data">
-        <input type="text" name="query" placeholder="Describe crop issue..." required>
-        <br>
-        <button type="submit">Analyze</button>
+    <h1>🌿 AI Plant Disease Assistant</h1>
+    <p class="subtitle">Crops • Fruits • Vegetables</p>
+
+    <form method="POST">
+
+        <select name="crop">
+            <option value="">Select Crop (Optional)</option>
+            <option>Tomato</option>
+            <option>Potato</option>
+            <option>Rice</option>
+            <option>Wheat</option>
+            <option>Maize</option>
+            <option>Mango</option>
+            <option>Apple</option>
+            <option>Banana</option>
+            <option>Chili</option>
+            <option>Onion</option>
+        </select>
+
+        <input type="text" name="query" placeholder="Describe symptoms..." required>
+
+        <button type="submit">🔍 Analyze</button>
+
     </form>
-   
 
+    <!-- Analytics -->
+    <div class="analytics">
+        📊 Total Searches: {{ total }}
+    </div>
+
+    <!-- Best Result -->
     {% if best_result %}
-    <div class="best">
-        🌟 Best Match: {{ best_result }} <br>
-        Confidence: {{ confidence }}%
+    <div class="card best-card">
+        <h3>🌟 Best Match</h3>
+
+        <p><span class="label">🌿 Disease:</span> {{ best_result['disease'] }}</p>
+        <p><span class="label">🧪 Symptoms:</span> {{ best_result['symptoms'] }}</p>
+        <p><span class="label">💊 Solution:</span> {{ best_result['solution'] }}</p>
+
+        <p class="confidence"
+           style="color: {{ 'green' if confidence > 70 else 'orange' if confidence > 40 else 'red' }};">
+           Confidence: {{ confidence }}%
+        </p>
     </div>
     {% endif %}
 
-    {% if results %}
-    <div class="result">
-        <h3>🔍 Other Matches:</h3>
+    <!-- Other Matches -->
+    {% if results and results|length > 1 %}
+    <h3>🔍 Other Matches</h3>
+
+    {% for r in results[1:] %}
+    <div class="card other-card">
+        <p><span class="label">🌿 Disease:</span> {{ r['disease'] }}</p>
+        <p><span class="label">🧪 Symptoms:</span> {{ r['symptoms'] }}</p>
+        <p><span class="label">💊 Solution:</span> {{ r['solution'] }}</p>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    <!-- History -->
+    {% if history %}
+    <div class="history">
+        <h3>🕒 Recent Searches</h3>
         <ul>
-            {% for r in results[1:] %}
-            <li>🌱 {{ r }}</li>
+            {% for h in history[-5:] %}
+            <li>{{ h }}</li>
             {% endfor %}
         </ul>
     </div>
     {% endif %}
+
 </div>
 
 </body>

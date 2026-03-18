@@ -1,60 +1,172 @@
-Tomato Early Blight: Yellow spots on leaves. Use fungicide and remove infected leaves.
-Tomato Late Blight: Dark lesions with mold. Use copper fungicide.
-Tomato Leaf Mold: Yellow patches with fuzzy growth. Improve ventilation.
-Tomato Septoria Leaf Spot: Small circular spots with dark borders. Use fungicide spray.
-Tomato Bacterial Spot: Dark water-soaked spots. Avoid overhead watering.
+Tomato Early Blight | Yellow spots on leaves | Use fungicide
+Tomato Late Blight | Dark mold lesions | Copper fungicide
+Tomato Leaf Mold | Yellow patches | Improve ventilation
+Tomato Septoria Leaf Spot | Small circular spots | Apply fungicide
+Tomato Bacterial Spot | Water-soaked lesions | Avoid overhead watering
 
-Potato Early Blight: Brown concentric rings on leaves. Apply fungicide regularly.
-Potato Late Blight: Dark brown patches with white edges. Use certified seeds.
-Potato Scab: Rough corky spots on tubers. Maintain soil moisture.
-Potato Blackleg: Black stems and soft rot. Use disease-free seeds.
-Potato Leaf Roll Virus: Upward leaf curling. Control aphids.
+Potato Early Blight | Brown rings on leaves | Apply fungicide
+Potato Late Blight | Dark patches with white edges | Use certified seeds
+Potato Scab | Rough corky tubers | Maintain soil moisture
+Potato Blackleg | Black stems and rot | Use disease-free seeds
+Potato Leaf Roll Virus | Leaf curling | Control aphids
 
-Rice Blast: Diamond-shaped lesions. Avoid excess nitrogen fertilizer.
-Rice Bacterial Blight: Yellowing and wilting leaves. Use resistant varieties.
-Rice Sheath Blight: Oval lesions on sheath. Improve spacing.
-Rice Brown Spot: Brown lesions on leaves. Use balanced fertilizer.
-Rice Tungro Virus: Yellow-orange leaves. Control leafhoppers.
+Rice Blast | Diamond-shaped lesions | Reduce nitrogen fertilizer
+Rice Bacterial Blight | Yellowing leaves | Use resistant varieties
+Rice Brown Spot | Brown lesions | Balanced fertilizer
+Rice Sheath Blight | Oval lesions | Improve spacing
+Rice Tungro Virus | Yellow leaves | Control leafhoppers
 
-Corn Leaf Spot: Small brown spots with yellow halo. Practice crop rotation.
-Corn Rust: Orange pustules on leaves. Use resistant hybrids.
-Corn Smut: Swollen black galls. Remove infected parts.
-Corn Blight: Large gray lesions. Apply fungicide.
-Corn Downy Mildew: Yellow streaks. Improve drainage.
+Wheat Rust | Red or brown patches | Apply fungicide
+Wheat Powdery Mildew | White powder on leaves | Improve airflow
+Wheat Smut | Black spores | Use treated seeds
+Wheat Leaf Blight | Yellow lesions | Use resistant varieties
+Wheat Stripe Rust | Yellow stripes | Apply fungicide
 
-Wheat Rust: Red or brown patches. Apply fungicide early.
-Wheat Powdery Mildew: White powder on leaves. Improve air circulation.
-Wheat Smut: Black powdery spores. Use treated seeds.
-Wheat Leaf Blight: Yellow lesions. Use resistant varieties.
+Maize Rust | Orange pustules | Resistant hybrids
+Maize Leaf Blight | Gray lesions | Apply fungicide
+Maize Smut | Black galls | Remove infected parts
+Maize Downy Mildew | Yellow streaks | Improve drainage
+Maize Leaf Spot | Brown spots | Crop rotation
 
-Mango Anthracnose: Black spots on fruit. Use fungicide spray.
-Mango Powdery Mildew: White coating on leaves. Spray sulfur fungicide.
-Mango Dieback: Drying of branches. Prune infected parts.
-Mango Bacterial Canker: Cracked bark. Apply copper spray.
+Barley Powdery Mildew | White coating | Apply fungicide
+Barley Rust | Brown spots | Resistant seeds
+Barley Blight | Yellow lesions | Fungicide spray
+Barley Smut | Black spores | Treated seeds
+Barley Stripe Disease | Yellow streaks | Use healthy seeds
 
-Banana Leaf Spot: Brown streaks on leaves. Remove infected leaves.
-Banana Panama Disease: Yellowing and wilting. Use resistant varieties.
-Banana Bunchy Top Virus: Stunted growth. Remove infected plants.
-Banana Anthracnose: Dark spots on fruit. Use fungicide.
+Sorghum Anthracnose | Red lesions | Apply fungicide
+Sorghum Rust | Orange pustules | Resistant varieties
+Sorghum Downy Mildew | Yellow streaks | Improve drainage
+Sorghum Grain Mold | Moldy grains | Proper drying
 
-Grape Downy Mildew: Yellow spots with white growth. Improve drainage.
-Grape Powdery Mildew: White powder on grapes. Use sulfur spray.
-Grape Black Rot: Black lesions on fruit. Apply fungicide.
-Grape Anthracnose: Dark sunken spots. Prune affected parts.
+Millet Blast | Leaf lesions | Reduce nitrogen
+Millet Smut | Black spores | Treated seeds
+Millet Rust | Brown spots | Fungicide
 
-Apple Scab: Dark spots on fruit and leaves. Apply fungicide.
-Apple Fire Blight: Blackened branches. Prune infected areas.
-Apple Powdery Mildew: White coating on leaves. Use fungicide.
-Apple Cedar Rust: Orange spots. Remove nearby cedar plants.
+Soybean Rust | Brown pustules | Apply fungicide
+Soybean Mosaic Virus | Yellow mottling | Resistant seeds
+Soybean Leaf Spot | Brown spots | Fungicide
+Soybean Blight | Leaf lesions | Resistant varieties
+Soybean Downy Mildew | Yellow patches | Improve airflow
 
-Chili Leaf Curl: Leaves curl upward. Control whiteflies.
-Chili Anthracnose: Dark sunken spots. Use fungicide.
-Chili Powdery Mildew: White patches. Improve airflow.
+Groundnut Leaf Spot | Brown spots | Fungicide
+Groundnut Rust | Orange pustules | Resistant varieties
+Groundnut Collar Rot | Stem rot | Soil treatment
+Groundnut Tikka Disease | Leaf spots | Fungicide
 
-Onion Purple Blotch: Purple lesions on leaves. Apply fungicide.
-Onion Downy Mildew: Pale patches on leaves. Improve airflow.
-Onion Basal Rot: Root decay. Use crop rotation.
+Sugarcane Red Rot | Red internal tissue | Use healthy setts
+Sugarcane Smut | Black whip growth | Remove infected plants
+Sugarcane Leaf Spot | Brown spots | Fungicide
+Sugarcane Wilt | Drying stalks | Resistant varieties
 
-Cotton Leaf Curl Virus: Leaf curling and thickening. Control whiteflies.
-Cotton Boll Rot: Rotting bolls. Use proper drainage.
-Cotton Wilt: Yellowing and wilting. Use resistant varieties.
+Cotton Leaf Curl Virus | Leaf curling | Control whiteflies
+Cotton Boll Rot | Rotting bolls | Improve drainage
+Cotton Wilt | Yellowing plants | Resistant varieties
+Cotton Alternaria Leaf Spot | Brown spots | Fungicide
+
+Mustard White Rust | White pustules | Fungicide
+Mustard Alternaria Blight | Dark spots | Fungicide
+Mustard Downy Mildew | Yellow patches | Improve airflow
+
+Sunflower Downy Mildew | Yellow patches | Improve drainage
+Sunflower Rust | Brown pustules | Resistant varieties
+Sunflower Blight | Leaf lesions | Fungicide
+
+Mango Anthracnose | Black fruit spots | Apply fungicide
+Mango Powdery Mildew | White coating | Sulfur spray
+Mango Dieback | Drying branches | Prune infected parts
+Mango Bacterial Canker | Bark cracks | Copper spray
+
+Banana Panama Disease | Yellowing leaves | Resistant varieties
+Banana Leaf Spot | Brown streaks | Remove infected leaves
+Banana Bunchy Top Virus | Stunted growth | Remove infected plants
+Banana Anthracnose | Fruit spots | Fungicide
+
+Apple Scab | Dark spots on fruit | Apply fungicide
+Apple Fire Blight | Blackened branches | Prune infected areas
+Apple Powdery Mildew | White coating | Fungicide
+Apple Cedar Rust | Orange spots | Remove host plants
+
+Orange Citrus Canker | Raised lesions | Copper spray
+Orange Greening Disease | Yellow leaves | Remove infected trees
+Orange Anthracnose | Fruit spots | Fungicide
+
+Papaya Leaf Curl | Curling leaves | Control whiteflies
+Papaya Ring Spot | Rings on fruit | Remove infected plants
+Papaya Anthracnose | Fruit spots | Fungicide
+
+Guava Wilt | Sudden wilting | Soil treatment
+Guava Anthracnose | Dark fruit spots | Fungicide
+
+Pomegranate Leaf Spot | Brown spots | Fungicide
+Pomegranate Wilt | Drying plant | Soil treatment
+
+Strawberry Powdery Mildew | White powder | Improve airflow
+Strawberry Leaf Spot | Purple spots | Fungicide
+
+Watermelon Fusarium Wilt | Wilting vines | Resistant varieties
+Watermelon Anthracnose | Dark lesions | Fungicide
+
+Pineapple Heart Rot | Rotting center | Improve drainage
+Pineapple Leaf Spot | Brown spots | Fungicide
+
+Coconut Bud Rot | Rotting bud | Remove infected
+Coconut Leaf Blight | Yellow lesions | Fungicide
+
+Chili Leaf Curl | Curling leaves | Control insects
+Chili Anthracnose | Dark spots | Fungicide
+Chili Powdery Mildew | White coating | Improve airflow
+Chili Wilt | Drooping plant | Soil treatment
+
+Onion Purple Blotch | Purple lesions | Fungicide
+Onion Downy Mildew | Pale patches | Improve airflow
+Onion Basal Rot | Root decay | Crop rotation
+
+Brinjal Bacterial Wilt | Wilting plant | Soil treatment
+Brinjal Leaf Spot | Brown spots | Fungicide
+Brinjal Shoot Borer Damage | Stem holes | Insect control
+
+Okra Yellow Vein Mosaic | Yellow veins | Control insects
+Okra Powdery Mildew | White coating | Fungicide
+Okra Leaf Spot | Brown spots | Fungicide
+
+Cucumber Downy Mildew | Yellow patches | Improve airflow
+Cucumber Powdery Mildew | White coating | Fungicide
+
+Pumpkin Powdery Mildew | White coating | Fungicide
+Pumpkin Downy Mildew | Yellow spots | Improve airflow
+
+Beans Rust | Orange pustules | Fungicide
+Beans Blight | Leaf damage | Resistant seeds
+
+Carrot Root Rot | Root decay | Improve drainage
+Carrot Leaf Spot | Brown spots | Fungicide
+
+Cabbage Black Rot | V-shaped lesions | Disease-free seeds
+Cabbage Downy Mildew | Yellow patches | Improve airflow
+Cabbage Clubroot | Swollen roots | Soil pH control
+
+Cauliflower Black Rot | Yellow lesions | Disease-free seeds
+Cauliflower Downy Mildew | Pale patches | Improve airflow
+
+Spinach Downy Mildew | Yellow patches | Improve airflow
+Spinach Leaf Spot | Brown spots | Fungicide
+
+Pea Powdery Mildew | White coating | Fungicide
+Pea Blight | Leaf spots | Fungicide
+Pea Wilt | Drooping plant | Soil treatment
+
+Broccoli Downy Mildew | Yellow patches | Improve airflow
+Broccoli Black Rot | V-shaped lesions | Disease-free seeds
+
+Beetroot Leaf Spot | Brown spots | Fungicide
+Beetroot Root Rot | Root decay | Improve drainage
+
+Garlic White Rot | Root rot | Crop rotation
+Garlic Rust | Orange spots | Fungicide
+
+Lettuce Downy Mildew | Yellow patches | Improve airflow
+Lettuce Leaf Spot | Brown spots | Fungicide
+
+Zucchini Powdery Mildew | White coating | Fungicide
+Zucchini Downy Mildew | Yellow spots | Improve airflow

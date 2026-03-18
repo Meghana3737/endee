@@ -1,133 +1,133 @@
-# 🌿 AI Crop Disease Assistant (Semantic Search with Endee Concept)
+🌿 AI Plant Disease Assistant 
 
-## 📌 Overview
+📌 Project Overview
 
-The **AI Crop Disease Assistant** is a web-based intelligent system that helps identify plant diseases based on user-described symptoms.
+The AI Plant Disease Assistant is a web-based AI application that helps users identify plant diseases based on symptoms.
 
-It uses **semantic search and vector embeddings** to retrieve the most relevant disease information, inspired by modern vector databases like Endee.
+Users can enter a description of crop issues, and the system returns:
 
----
+- 🌟 Best matching disease
+- 📊 Confidence score
+- 🔍 Other similar matches
+- 💊 Suggested solutions
 
-## 🚀 Key Features
-
-* 🔎 Semantic search (understands meaning, not just keywords)
-* 🧠 AI-based retrieval using embeddings
-* 🌿 Crop disease diagnosis suggestions
-* 📊 Confidence scoring for predictions
-* 🔍 Top-k result ranking
-* 🌐 Interactive web interface (Flask)
+This project demonstrates semantic search using vector embeddings, inspired by vector databases like Endee.
 
 ---
 
-## 🧠 System Architecture
+🚀 Key Features
 
-User Input
-↓
-Embedding Model (Sentence Transformers)
-↓
-Vector Representation
-↓
-Similarity Search (Vector Comparison)
-↓
-Top Matching Results
-↓
-Display with Confidence Score
+- 🔎 Semantic Search (meaning-based search)
+- 🌾 Supports Crops, Fruits, and Vegetables
+- 📊 Confidence Score Visualization (color-based)
+- 🧠 Best Match + Alternative Matches
+- 🕒 Search History Tracking
+- 📈 Analytics (Total Searches)
+- 🎨 Attractive UI using HTML & CSS
+- ⚡ Fast Flask backend
 
 ---
 
-## ⚙️ Technologies Used
+🧠 How It Works
 
-* Python
-* Flask
-* Sentence Transformers
-* NumPy
-
----
-
-## 📊 Endee Vector Database Concept
-
-This project demonstrates the working principle of **vector databases like Endee**:
-
-* Data is converted into **high-dimensional embeddings**
-* Similarity search is used to retrieve relevant information
-* Results are ranked based on similarity score
-
-Although Endee itself is a C++-based system, this project implements its **core concept of vector similarity search**.
+1. User enters symptoms (e.g., "yellow spots on leaves")
+2. Input is converted into vector embeddings
+3. Dataset is also converted into embeddings
+4. Cosine similarity is calculated
+5. Best match + similar matches are returned
 
 ---
 
-## 🧪 Example
+🧩 Tech Stack
 
-**Input:**
-
-```
-yellow spots on tomato leaves
-```
-
-**Output:**
-
-* 🌟 Best Match: Tomato Early Blight
-* 📊 Confidence: ~70%
-* 🔍 Other Matches displayed
+- Frontend: HTML, CSS
+- Backend: Python (Flask)
+- ML Model: Sentence Transformers ("all-MiniLM-L6-v2")
+- Concept: Vector Search (Endee-inspired)
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
-```
 my-ai-project/
-   app.py
-   dataset.txt
-   requirements.txt
-   README.md
-   templates/
-       index.html
-```
+│── app.py
+│── dataset.txt
+│── requirements.txt
+│── README.md
+│── templates/
+│  └── index.html
+│── images/
+  ├── ui_screenshot.png
+  └── output.png
 
 ---
 
-## ▶️ How to Run
+📊 Dataset
 
-```
+- Contains 300+ plant disease entries
+- Covers:
+  - 🌾 Crops
+  - 🍎 Fruits
+  - 🥕 Vegetables
+- Each entry includes:
+  - Disease
+  - Symptoms
+  - Solution
+
+---
+
+▶️ How to Run
+
+Step 1: Install dependencies
+
 pip install -r requirements.txt
-python app.py
-```
 
-Open:
+Step 2: Run the app
+
+python app.py
+
+Step 3: Open browser
+
 http://127.0.0.1:5000
 
 ---
 
-## 📸 Project UI
-![UI](images/ui_screenshot.png)
+📸 Project UI
 
-## 📸 Example Output
-![Output](images/output.png)
-
-## ⚠️ Limitations
-
-* Limited dataset (demo purpose)
-* Depends on quality of user input
-* Not a replacement for expert diagnosis
+![UI Screenshot](images/ui_screenshot.png)
 
 ---
 
-## 🔮 Future Enhancements
+📸 Example Output
 
-* Image-based disease detection
-* Integration with real agricultural APIs
-* Full Endee vector DB deployment
-* Mobile-friendly UI
+![Output Screenshot](images/output.png)
 
 ---
 
-## 🏆 Conclusion
+⚠️ Limitations
 
-This project showcases how **semantic search and vector embeddings** can be applied to solve real-world agricultural problems, following principles used in modern AI systems and vector databases like Endee.
+- Uses demo dataset (not 100% real-world accurate)
+- Depends on user input quality
+- Not a replacement for expert diagnosis
 
 ---
 
-## 👩‍💻 Author
-**Meghana Busetty**
+🔮 Future Improvements
 
-Developed as part of an AI/ML project demonstrating vector search systems.
+- 🌐 Full Endee vector database integration
+- 📷 Image-based disease detection
+- 🧠 RAG (Retrieval-Augmented Generation)
+- 📱 Mobile-friendly UI
+- 🌍 Multi-language support
+
+---
+
+🏆 Conclusion
+
+This project shows how semantic search and vector embeddings can be applied to real-world agricultural problems using modern AI techniques.
+
+---
+
+👩‍💻 Author
+
+Meghana Busetty
